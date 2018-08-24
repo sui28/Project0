@@ -2,15 +2,46 @@
 <html>
     <head>
         <title>My Webpage</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+            .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+        </style>
     </head>
     <body>
         Hello, world!
 		
-		        An Unordered List:
+		<br>
+		<br>
+		<br>
+		An Unordered List:
         <ul>
-            <li><a href="alpha.html">Click here to alpha page</a></li>
-            <li><a href="beta.html">Click here to beta page</a></li>
-            <li><a href="delta.html">Click here to delta page</a></li>
+            <li><a href="alpha.html">Go to alpha page</a></li>
+            <li><a href="beta.html">Go to beta page</a></li>
+            <li><a href="delta.html">Go to delta page</a></li>
         </ul>
+		
+		<br>
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    This is a section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is another section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is a third section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is a fourth section.
+                </div>
+            </div>
+        </div>
+		
     </body>
 </html>
